@@ -1,0 +1,85 @@
+body {
+  background-color: hsl(212, 45%, 89%);
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 1rem;
+}
+
+main {
+  background-color: white;
+  width: 330px;
+  height: auto;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1rem 1.5rem 1rem;
+  gap: 16px;
+}
+
+img {
+  border-radius: 15px;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 0.5rem;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 1.4rem;
+  text-align: center;
+  color: hsl(218, 44%, 22%);
+}
+
+p {
+  font-size: 15px;
+  color: hsl(220, 15%, 55%);
+  text-align: center;
+  width: 95%;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+}
+
+footer p {
+  font-size: 12px;
+}
+
+footer p span {
+  font-weight: 700;
+}
+
+.icons-container {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  color: hsl(220, 15%, 55%);
+}
+
+.linkedin:hover {
+  transition: 0.2s ease-in-out;
+  color: rgb(51, 51, 255);
+}
+
+.github:hover {
+  transition: 0.2s ease-in-out;
+  color: rgb(109, 109, 109);
+}
+
+.portfolio:hover {
+  transition: 0.2s ease-in-out;
+  color: salmon;
+}
